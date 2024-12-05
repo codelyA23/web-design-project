@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberGirls Initiative</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo">Cyber<span>Girls</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="index.html" class="active-page">Home</a>
+        <a href="about.html">Who We Are</a>
+        <a href="programs.html">Program Details</a>
+        <a href="stories.html">Success Stories</a>
+        <a href="mentors.html">Mentor Profiles</a>
+        <a href="enrollment.html" class="active-page">Enrollment</a>
+        <a href="resources.html" class="resource-for-margin-right"
+          >Resource Hub</a
+        >
+        <a href="contact.html" class="gradient-btn">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <section class="enrollment" id="enrollment">
+        <h2 class="heading">Enrollment</h2>
+
+        <div class="enrollment-content">
+          <div class="enrollment-info">
+            <h3>How to Apply</h3>
+            <p>
+              Follow these simple steps to enroll in our program. We look
+              forward to guiding you through a rewarding journey in
+              cybersecurity!
+            </p>
+
+            <ol>
+              <li>
+                <strong>Check Eligibility:</strong> Applicants must be 18 years
+                or older with a basic understanding of computer systems.
+              </li>
+              <li>
+                <strong>Gather Documents:</strong> Prepare an updated resume,
+                proof of identification, and any relevant certifications.
+              </li>
+              <li>
+                <strong>Submit Application:</strong> Complete the online form
+                below or visit our application portal.
+              </li>
+              <li>
+                <strong>Application Deadline:</strong> Applications are due by
+                <em>December 15, 2024</em>.
+              </li>
+            </ol>
+
+            <a href="application-portal-link" class="apply-btn"
+              >Go to Application Portal</a
+            >
+          </div>
+
+          <div class="enrollment-form">
+            <h3>Quick Application Form</h3>
+            <form action="/submit-enrollment" method="post">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required />
+
+              <label for="resume">Upload Resume:</label>
+              <input
+                type="file"
+                id="resume"
+                name="resume"
+                accept=".pdf, .doc, .docx"
+                required
+              />
+
+              <button type="submit" class="submit-btn">
+                Submit Application
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <i class="bx bx-shield-quarter"></i>
+            <h3>CyberGirls</h3>
+          </div>
+          <p>Empowering the next generation of cybersecurity leaders.</p>
+          <div class="social-icons">
+            <a href="#"><i class="bx bxl-linkedin" title="linkedin"></i></a>
+            <a href="#"><i class="bx bxl-twitter" title="twitter"></i></a>
+            <a href="#"><i class="bx bxl-github" title="github"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="programs.html">Fundamentals</a></li>
+            <li><a href="programs.html">Ethical Hacking</a></li>
+            <li><a href="programs.html">Network Security</a></li>
+            <li><a href="programs.html">Advanced Security</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="resources.html">Learning Materials</a></li>
+            <li><a href="resources.html">Tools</a></li>
+            <li><a href="mentors.html">Mentors</a></li>
+            <li><a href="stories.html">Success Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Get in Touch</a></li>
+            <li><a href="enrollment.html">Enroll Now</a></li>
+            <li>
+              <a href="mailto:contact@cybergirls.org">contact@cybergirls.org</a>
+            </li>
+            <li><a href="tel:(123)456-7890">(123) 456-7890</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>2024 CyberGirls. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

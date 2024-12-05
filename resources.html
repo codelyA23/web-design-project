@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberGirls Initiative</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo">Cyber<span>Girls</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="index.html" class="active-page">Home</a>
+        <a href="about.html">Who We Are</a>
+        <a href="programs.html">Program Details</a>
+        <a href="stories.html">Success Stories</a>
+        <a href="mentors.html">Mentor Profiles</a>
+        <a href="enrollment.html">Enrollment</a>
+        <a href="resources.html" class="active-page resource-for-margin-right"
+          >Resource Hub</a
+        >
+        <a href="contact.html" class="gradient-btn">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <section class="resource-hub" id="resource-hub">
+        <h2 class="heading">Resource Hub</h2>
+
+        <div class="resource-hub-content">
+          <div class="search-bar">
+            <input
+              type="text"
+              placeholder="Search resources..."
+              id="search-input"
+            />
+            <button class="search-btn">Search</button>
+          </div>
+
+          <div class="resource-categories">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="articles">
+              Articles
+            </button>
+            <button class="category-btn" data-category="webinars">
+              Webinars
+            </button>
+            <button class="category-btn" data-category="tutorials">
+              Tutorials
+            </button>
+          </div>
+
+          <div class="resource-list">
+            <!-- Featured Resource -->
+            <div class="featured-resource">
+              <h3>Featured Resource</h3>
+              <div class="featured-item">
+                <img src="mentor.png" alt="Featured Resource" />
+                <div class="featured-info">
+                  <h4>Cybersecurity Essentials Webinar</h4>
+                  <p>
+                    An in-depth webinar covering the basics of network security,
+                    ethical hacking, and data protection. Ideal for beginners.
+                  </p>
+                  <a
+                    href="webinar-link"
+                    target="_blank"
+                    class="view-resource-btn"
+                    >View Webinar</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Resource Items -->
+            <div class="resource-item" data-category="articles">
+              <h4>Understanding Phishing Attacks</h4>
+              <p>
+                Learn how to identify and prevent phishing attacks with
+                real-world examples and tips.
+              </p>
+              <a href="article-link" target="_blank" class="view-resource-btn"
+                >Read Article</a
+              >
+            </div>
+
+            <div class="resource-item" data-category="webinars">
+              <h4>Introduction to Ethical Hacking</h4>
+              <p>
+                Discover the fundamentals of ethical hacking and how it
+                contributes to a secure digital environment.
+              </p>
+              <a href="webinar-link" target="_blank" class="view-resource-btn"
+                >Watch Webinar</a
+              >
+            </div>
+
+            <div class="resource-item" data-category="tutorials">
+              <h4>Hands-On Network Security Tutorial</h4>
+              <p>
+                A practical guide to securing networks, suitable for
+                intermediate learners.
+              </p>
+              <a href="tutorial-link" target="_blank" class="view-resource-btn"
+                >View Tutorial</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <i class="bx bx-shield-quarter"></i>
+            <h3>CyberGirls</h3>
+          </div>
+          <p>Empowering the next generation of cybersecurity leaders.</p>
+          <div class="social-icons">
+            <a href="#"><i class="bx bxl-linkedin" title="linkedin"></i></a>
+            <a href="#"><i class="bx bxl-twitter" title="twitter"></i></a>
+            <a href="#"><i class="bx bxl-github" title="github"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="programs.html">Fundamentals</a></li>
+            <li><a href="programs.html">Ethical Hacking</a></li>
+            <li><a href="programs.html">Network Security</a></li>
+            <li><a href="programs.html">Advanced Security</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="resources.html">Learning Materials</a></li>
+            <li><a href="resources.html">Tools</a></li>
+            <li><a href="mentors.html">Mentors</a></li>
+            <li><a href="stories.html">Success Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Get in Touch</a></li>
+            <li><a href="enrollment.html">Enroll Now</a></li>
+            <li>
+              <a href="mailto:contact@cybergirls.org">contact@cybergirls.org</a>
+            </li>
+            <li><a href="tel:(123)456-7890">(123) 456-7890</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>2024 CyberGirls. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
